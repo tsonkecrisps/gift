@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d000f;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  background-color: #69020296;
+  color: #140808e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ffffffec; /* Adding a white border around the navbar */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  margin:5px; /* Optional: Adds spacing around the navbar */
+  list-style-type: none;
+  font-family: 'Dancing Script', cursive; /* Default romantic font */
+}
+
+.navbar-logo h1 {
+  margin-left: 15px;
+  font-size: 40px;
+  font-style:oblique;
+  font-family: 'Dancing Script', cursive; /* Default romantic font */
+}
+
+.navbar-logo h1:hover {
+  color: #d3d3d3; /* Change color when hovering for an interactive feel */
+  transform: scale(1.25); /* Slight zoom effect on hover */
+  transition: transform 1s ease, color 1s ease;
+}   
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.9s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: #ffffff;
+  
+}
+
+/* Styling the div that contains the images */
+.image-container {
+  display: flex; /* Flexbox to arrange images horizontally */
+  justify-content: space-around; /* Space between images */
+  align-items: center; /* Align images vertically in the center */
+
+  width: 100%; /* Full width */
+  height: 400px; /* Fixed height for the container */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of inline elements */
+  padding: 10px;
+}
+
+/* Styling for the images inside the div */
+.image-container img {
+  width: 150px; /* Set the width for each image */
+  height: auto; /* Set the height for each image */
+  margin-right: 10px; /* Space between images */
+  border-radius: 10px; /* Optional: rounded corners */
+  border: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow to images */
+  margin: 10px; /* Optional: spacing around each image */
+  display: inline-block; /* Keeps images in a single row */
+  
+}
+
+.image-container img:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#section1{
+  background-color: #80002081;
+  border: 2px solid #ffffffec; /* Adding a white border around the navbar */
+  border-radius: 15px; /* Optional: Adds rounded corners */
+  margin: 5px; /* Optional: Adds spacing around the navbar */        
+}
+
+#section1 img {
+  width: 250px;
+}
+
+#section2{
+  background-color: #8d8d8d;
+  border: 2px solid #ffffffec; /* Adding a white border around the navbar */
+  border-radius: 15px; /* Optional: Adds rounded corners */
+  margin: 5px; /* Optional: Adds spacing around the navbar */   
+   
+}
+
+#section3{
+  background-color: #80002081;
+  border: 2px solid #ffffffec; /* Adding a white border around the navbar */
+  border-radius: 15px; /* Optional: Adds rounded corners */
+  margin: 5px; /* Optional: Adds spacing around the navbar */    
+}
+
+#section3 img{
+  width: 200px;
+}
+
+.sections p, h2 {
+  font-family: 'Amatic SC', cursive; /* Cartoonish hand-drawn font for the paragraph */
+  font-size: 1.8em;
+  color: #030303; /* Another romantic pink color */
+  line-height: 1.6; /* Increases readability */
+  margin-top: 20px;
+  margin-left: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for the paragraph */
+}
+
+.poem1 {
+  text-align: left; /* Aligns the text to the left */
+  width: 30%; /* Width of the left paragraph */
+  float: left; /* Floats the element to the left */
+  margin-right: 10px; /* Adds space between paragraphs */
+  margin-left: 50px;
+}
+.poem2 {
+  text-align: center; /* Center aligns the text */
+  width: 30%; /* Width of the center paragraph */
+  float: left; /* Floats the element to the left */
+  margin: 0 10px; /* Adds space around the center paragraph */
+}
+.poem3 {
+  text-align: right; /* Aligns the text to the right */
+  width: 30%; /* Width of the right paragraph */
+  float: left; /* Floats the element to the left */
+  margin-left: 10px; /* Adds space between paragraphs */
+}
+
